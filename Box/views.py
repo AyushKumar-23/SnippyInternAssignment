@@ -10,8 +10,8 @@ from django.db.models import Avg
 from django.utils import timezone
 from django.core.exceptions import BadRequest
 
-A1 = 400
-V1 = 100
+A1 = 100
+V1 = 1000
 L1 = 100
 L2 = 50
 
