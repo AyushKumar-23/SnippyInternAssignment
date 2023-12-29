@@ -28,6 +28,7 @@ debugpy==1.6.0
 decorator==5.0.9
 defusedxml==0.7.1
 distlib==0.3.4
+dj-database-url==2.1.0
 dj-rest-auth==2.2.5
 Django==3.2.8
 django-allauth==0.51.0
@@ -137,6 +138,7 @@ tkcalendar==1.6.1
 tornado==6.1
 traitlets==5.3.0
 turtle==0.0.1
+typing_extensions==4.9.0
 urllib3==1.26.6
 vine==5.0.0
 virtualenv==20.13.1
