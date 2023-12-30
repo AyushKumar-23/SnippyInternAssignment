@@ -3,11 +3,21 @@
 # Phone No.: 9873803727
 # Email ID: kumarayush009@gmail.com
 
+Credentials-
 
+1. username: admin <br>
+password: admin
+Permission : All
+
+2. username: Testuser <br>
+password: 
+Permission: 
+
+Variables Assigned -<br>
 Average Area, A1 = 100 <br>
 Average Volume, V1 = 100 <br>
-Total Boxes added in a week, L1 = 100
-Total Boxes added in a week by a user, L2=50
+Total Boxes added in a week, L1 = 100 <br>
+Total Boxes added in a week by a user, L2=50 <br>
 
 
 TASK 0: Building Models
@@ -18,35 +28,27 @@ TASK 0: Building Models
 
 TASK 1: Add Api
 
-url : '/add-box/'
+url : 'https://spinnyassignment.onrender.com/add-box/'
 
-Input fields: Length,width,height
+Input fields: Length,width,height<br>
 Permissions: User should be logged in and should be staff to add the box
 
 TASK 2: Update Api
 
-url : '/update-box/<int:pk>/'
+url : 'https://spinnyassignment.onrender.com/update-box/<int:pk>/'
+Sample url : 'https://spinnyassignment.onrender.com/update-box/38/'
 
 Input fields: 
-Length,width,height
+Length,width,height<br>
 Permissions: 
 Any Staff user should be able to update any box. but shall not be able to update the creator or creation date
 
 TASK 3: List All Boxes
 
-url : '/list-all-boxes/'
-
-Response:
-        1. Length
-        2. width
-        3. Height
-        4. Area
-        5. Volume
-        6. Created By
-        7. Last Updated
+url : 'https://spinnyassignment.onrender.com/list-all-boxes/'
 
 Permissions:
-Any user shall be able to see boxes in the store. The "Createg by" and the "Last Updated" field should be displayed only if the user is a staff member.
+Any user shall be able to see boxes in the store. The "Created by" and the "Last Updated" field should be displayed only if the user is a staff member.
 
 Filters:
 1. length_more_than
@@ -64,23 +66,27 @@ Filters:
 13.created_after
 
 Example URL for applying filters: 
-1) http://127.0.0.1:8000/list-all-boxes/?length_more_than=1&created_by=admin
-2) http://127.0.0.1:8000/list-all-boxes/?area_more_than=20
-3) http://127.0.0.1:8000/list-all-boxes/?area_less_than=30&volume_more_than=5&created_by=admin
+1) https://spinnyassignment.onrender.com/list-all-boxes/?length_more_than=1&created_by=admin
+2) https://spinnyassignment.onrender.com/list-all-boxes/?area_more_than=5
+3) https://spinnyassignment.onrender.com/list-all-boxes/?area_less_than=30&volume_more_than=1&created_by=admin
+4) https://spinnyassignment.onrender.com/list-all-boxes/?created_after=2023-09-20
+
+Sample Response:
+
+{
+        "length": 1.0,
+        "width": 1.0,
+        "height": 1.0,
+        "area": 6.0,
+        "volume": 1.0,
+        "created_at": "2023-12-30T09:08:57.925343Z",
+        "updated_at": "2023-12-30T09:08:57.942385Z"
+}
 
 
 TASK 4: List My Boxes
 
-url: '/list-my-boxes/'
-
-Response:
-        1. Length
-        2. width
-        3. Height
-        4. Area
-        5. Volume
-        6. Created By
-        7. Last Updated
+url: 'https://spinnyassignment.onrender.com/list-my-boxes/'
 
 Permissions:
 Only Staff user shall be able to see his/her created boxes in the store.
@@ -98,13 +104,26 @@ Filters:
 10.volume_less_than
 
 Example URL for applying filters: 
-1) http://127.0.0.1:8000/list-my-boxes/?width_less_than=100&volume_less_than=9
-2) http://127.0.0.1:8000/list-my-boxes/?length_more_than=100
+1) https://spinnyassignment.onrender.com/list-my-boxes/?width_less_than=100&volume_less_than=9
+2) https://spinnyassignment.onrender.com/list-my-boxes/?length_more_than=100
+
+Sample Response:
+
+{
+        "length": 1.0,
+        "width": 1.0,
+        "height": 1.0,
+        "area": 6.0,
+        "volume": 1.0,
+        "created_at": "2023-12-30T09:08:57.925343Z",
+        "updated_at": "2023-12-30T09:08:57.942385Z"
+}
 
 
 TASK 5: Delete Api
 
-url: "/delete-box/<int:pk>/"
+url: 'https://spinnyassignment.onrender.com/delete-box/<int:pk>/'
+Sample url : 'https://spinnyassignment.onrender.com/delete-box/38/'
 
 Permissions:
 Only the creater of the box shall be able to delete the box.
