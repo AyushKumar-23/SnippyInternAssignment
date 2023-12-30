@@ -4,8 +4,8 @@
 # Email ID: kumarayush009@gmail.com
 
 
-Average Area, A1 = 100
-Average Volume, V1 = 100
+Average Area, A1 = 100 \n
+Average Volume, V1 = 100 \n
 Total Boxes added in a week, L1 = 100
 Total Boxes added in a week by a user, L2=50
 
