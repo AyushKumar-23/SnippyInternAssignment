@@ -7,11 +7,15 @@
 
 1. username: admin <br>
 password: admin<br>
-Permission : All
+Permission : All(Can login on the admin page)
 
-2. username: Testuser <br>
-password: <br>
-Permission: <br>
+2. username: staffUser <br>
+password: spinny123<br>
+Permission : All(Cannot login to admin page)
+
+3. username: Testuser <br>
+password: spinny123<br>
+Permission: (NOT A STAFF MEMBER) shall be able to see boxes in the store<br>
 
 Admin url : 'https://spinnyassignment.onrender.com/admin/'<br><br>
 
