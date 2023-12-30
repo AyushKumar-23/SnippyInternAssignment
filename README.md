@@ -12,8 +12,10 @@ Permission : All
 2. username: Testuser <br>
 password: <br>
 Permission: <br><br>
+
 ------------------------------------------------------------<br><br>
-Variables Assigned -
+
+Variables Assigned -<br>
 1.Average Area, A1 = 100 <br>
 2.Average Volume, V1 = 100 <br>
 3.Total Boxes added in a week, L1 = 100 <br>
