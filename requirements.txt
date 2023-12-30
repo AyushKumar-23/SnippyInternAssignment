@@ -55,7 +55,6 @@ gunicorn==21.2.0
 html2image==2.0.4.3
 httpie==2.6.0
 idna==3.4
-importlib==1.0.4
 ipykernel==6.15.0
 ipython==7.27.0
 ipython-genutils==0.2.0
