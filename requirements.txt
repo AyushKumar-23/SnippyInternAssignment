@@ -55,7 +55,6 @@ gunicorn==21.2.0
 html2image==2.0.4.3
 httpie==2.6.0
 idna==3.4
-importlib==1.0.4
 ipykernel==6.15.0
 ipython==7.27.0
 ipython-genutils==0.2.0
@@ -118,9 +117,7 @@ PySocks==1.7.1
 python-dateutil==2.8.2
 python3-openid==3.2.0
 pytz==2022.1
-pywin32==304
 pywin32-ctypes==0.2.0
-pywinpty==2.0.5
 PyYAML==6.0
 pyzmq==23.2.0
 qtconsole==5.3.1
@@ -149,7 +146,6 @@ virtualenv-clone==0.5.7
 wcwidth==0.2.5
 webencodings==0.5.1
 websocket-client==1.6.3
-Werkzeug==0.16.0
 whichcraft==0.6.1
 whitenoise==6.5.0
 widgetsnbextension==3.6.1
