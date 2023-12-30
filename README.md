@@ -6,20 +6,20 @@
 Credentials-
 
 1. username: admin <br>
-password: admin
+password: admin<br>
 Permission : All
 
 2. username: Testuser <br>
-password: 
-Permission: 
+password: <br>
+Permission: <br><br>
+------------------------------------------------------------<br><br>
+Variables Assigned -
+1.Average Area, A1 = 100 <br>
+2.Average Volume, V1 = 100 <br>
+3.Total Boxes added in a week, L1 = 100 <br>
+4.Total Boxes added in a week by a user, L2=50 <br><br>
 
-Variables Assigned -<br>
-Average Area, A1 = 100 <br>
-Average Volume, V1 = 100 <br>
-Total Boxes added in a week, L1 = 100 <br>
-Total Boxes added in a week by a user, L2=50 <br>
-
-
+------------------------------------------------------------<br><br>
 TASK 0: Building Models
 1) I have used the Django's built in user model.
 2) Box Model:
@@ -35,7 +35,7 @@ Permissions: User should be logged in and should be staff to add the box
 
 TASK 2: Update Api
 
-url : 'https://spinnyassignment.onrender.com/update-box/<int:pk>/'
+url : 'https://spinnyassignment.onrender.com/update-box/<int:pk>/'<br>
 Sample url : 'https://spinnyassignment.onrender.com/update-box/38/'
 
 Input fields: 
@@ -122,13 +122,13 @@ Sample Response:
 
 TASK 5: Delete Api
 
-url: 'https://spinnyassignment.onrender.com/delete-box/<int:pk>/'
+url: 'https://spinnyassignment.onrender.com/delete-box/<int:pk>/'<br>
 Sample url : 'https://spinnyassignment.onrender.com/delete-box/38/'
 
 Permissions:
-Only the creater of the box shall be able to delete the box.
+Only the creater of the box shall be able to delete the box.<br><br>
 
-
+------------------------------------------------------------<br><br>
 
 CONDITIONS FULFILLED:
 1. Average area of all added boxes should not exceed A1
