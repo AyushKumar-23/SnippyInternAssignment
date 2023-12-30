@@ -11,7 +11,9 @@ Permission : All
 
 2. username: Testuser <br>
 password: <br>
-Permission: <br><br>
+Permission: <br>
+
+Admin url : 'https://spinnyassignment.onrender.com/admin/'<br><br>
 
 ------------------------------------------------------------<br><br>
 
